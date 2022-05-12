@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Imgem1 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+
+}
+
+.Pagina1 {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.backgroudVerde {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    height: 100%;
+
+
+}
+
+
+
+.UserForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5% 20%;
+    font-family: 'Poppins';
+    margin-bottom: 10%;
+
+
+}
+
+.BotaoUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #2F4F4F;
+    border-radius: 25px 25px 0px 0px;
+    width: 70%;
+    height: 80%;
+}
+
+.linhaHorizontal {
+    position: absolute;
+    width: 188px;
+    bottom: 535px;
+    height: 5px;
+    left: 712px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.ClassesCadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Poppins';
+    position: relative;
+    bottom: 630px;
+    left: 378px;
+    width: 45%;
+    height: 55%;
+}
+
+.BotaoEmpresa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 65%;
+    background: #90EE90;
+    border: 1px solid #2F4F4F;
+    border-radius: 25px 25px 0px 0px;
+
+}
+
+.Sombreado1 {
+    width: 300px;
+    height: 450px;
+    background: rgba(89, 134, 89, 0.3);
+    filter: blur(4px);
+    border-radius: 25px;
+
+
+}
+
+.quadradoForm1 {
+    width: 380px;
+    height: 500px;
+    border: 1px solid #3F4F4F;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -75%;
+    box-shadow: 25px 15px 10px rgba(89, 134, 89, 0.3);
+
+}
+
+
+
+.botaoCadastro {
+    width: 200px;
+    height: 40px;
+    border: 1px solid #598659;
+    border-radius: 5px;
+}
+
+.Conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+
+}
+
+
+.Maior {
+    font-size: 20px;
+}
+
+
+.buttonCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 30px;
+    background: #598659;
+    border: 1px solid #2F4F4F;
+    border-radius: 45px;
+    color: white;
+    margin-left: 25%;
+    margin-top: 10%;
+
+
+}
