@@ -90,8 +90,6 @@
     background: rgba(89, 134, 89, 0.3);
     filter: blur(4px);
     border-radius: 25px;
-
-
 }
 
 .quadradoForm1 {
@@ -144,4 +142,22 @@
     margin-top: 10%;
 
 
+}
+
+.TESTE {
+    display: none;
+}
+
+.input-vermelho {
+    border: 2px solid #DC2727;
+    border-radius: 7px;
+}
+
+.input-verde {
+    border: 2px solid #1C9F11;
+    border-radius: 7px;
+}
+
+.buttonsla {
+    background: #2F4F4F;
 }

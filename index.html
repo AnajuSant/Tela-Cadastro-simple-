@@ -28,16 +28,19 @@
                 <!-- <hr class="linhaHorizontal"> -->
 
 
+
                 <form action="#" id="formulario">
                     <div class="Conteudo">
                         <label class="Maior">UserName</label>
                         <div>
                             <input class="botaoCadastro" type="text" id="NomeCompleto" placeholder="Leila Machado">
+                            <div class="TESTE" id="teste">Usuário já existente</div>
                         </div>
 
                         <label class="Maior">E-mail</label>
                         <div>
                             <input class="botaoCadastro" type="email" id="E-mail" placeholder="leila@hotmail.com">
+                            <div class="TESTE" id="teste1"> Insira um e-mail válido</div>
                         </div>
 
 
@@ -48,7 +51,9 @@
 
                         <label class="Maior">Confirmação senha</label>
                         <div>
-                            <input class="botaoCadastro" type="password" id="SenhaConfirm" onblur="ChecarSenha();" placeholder="**********">
+                            <input class="botaoCadastro" type="password" id="SenhaConfirm" onblur="ChecarSenha();"
+                                placeholder="**********">
+                            <div class="TESTE" id="teste2"> As senhas não coincidem </div>
                         </div>
 
                         <input id="botao" class="buttonCadastro" type="submit" onclick="cadastro(); return false;">
